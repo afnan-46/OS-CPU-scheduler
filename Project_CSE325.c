@@ -5,7 +5,19 @@
 
 #define MAXP 100
 #define MAXG 10000
-
+/*Features:
+1. Implement the following CPU scheduling algorithms: First-Come, First-Served (FCFS), Shortest
+Job First (SJF), Round Robin (RR), and Priority Scheduling.
+2. Design a user-friendly menu-based interface for the software, allowing the user to select the
+desired scheduling algorithm and input parameters.
+3. Generate a Gantt chart to visually represent the scheduling sequence and the allocated CPU time
+for each process.
+4. Calculate and display the average waiting time for the selected scheduling algorithm.
+5. Include error handling and input validation to ensure the program handles invalid inputs
+gracefully.
+6. Implement a comparison module to determine the best CPU scheduling algorithm based on a
+given set of processes and their burst times.
+    */
 typedef struct
 {
     int pid;
