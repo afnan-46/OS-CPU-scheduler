@@ -468,8 +468,7 @@ static void run_algorithm_menu(Process base[], int n)
         }
         else
         {
-            // For non-priority algorithms, set a default priority.
-            // This is not used by the algorithm logic, but keeps the struct valid.
+          
             for (int i = 0; i < n; i++)
             {
                 p[i].priority = 0;
